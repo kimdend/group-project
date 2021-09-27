@@ -3,6 +3,58 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: 'Lato', sans-serif;
+}
+
+.container {
+    padding: 100px calc(50vw - 570px);
+}
+
+.expert {
+    background: #f1f8ff;
+    height: 100vw;
+    padding: 100px calc(50vw - 580px);
+    text-align: center;
+}
+
+.expert__title {
+    font-family: "Lato-Light";
+    text-transform: capitalize;
+    font-size: calc(24px + 26 * (100vw / 2000));
+}
+
+.expert__wrap {
+    display: flex;
+    width: 100%;
+}
+
+.expert__wrapper {
+    max-width: 360px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.expert__svg {
+    border: 2px solid black;
+}
+
+.expert__possibilities {
+    color: #3677fd;
+    font-family: "Lato-Bold";
+    font-size: calc(16px + 8 * (100vw / 2000));
+    text-transform: uppercase;
+}
+
+.expert__text {
+    font-family: "Lato-Regular";
+    font-style: 16px;
+}
+
+
+.footer {
+    background-color: aqua;
 }
