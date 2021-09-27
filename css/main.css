@@ -6,3 +6,7 @@
 body {
     font-family: 'Lato', sans-serif;
 }
+
+.container {
+    padding: 100px calc(50vw - 570px);
+}
