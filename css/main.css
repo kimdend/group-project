@@ -22,44 +22,66 @@ body {
 
 .expert {
     background: #f1f8ff;
-    height: 100vw;
     padding: 100px calc(50vw - 580px);
     text-align: center;
 }
 
 .expert__title {
-    font-family: "Lato-Light";
+    font-weight: 300;
     text-transform: capitalize;
     font-size: calc(24px + 26 * (100vw / 2000));
+    background: -webkit-linear-gradient(45deg, #3695ff 40%, #356ffd 0%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    margin-bottom: 115px;
 }
 
 .expert__wrap {
     display: flex;
     width: 100%;
+    justify-content: center;
+}
+
+.expert__wrap_first {
+    margin-bottom: 100px;
 }
 
 .expert__wrapper {
-    max-width: 360px;
+    max-width: 24vw;
     margin: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.expert__svg {
-    border: 2px solid black;
+.expert__circle {
+    border: 1px solid #bbc4cd;
+    border-radius: 100px;
+    width: 140px;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
 }
 
-.expert__possibilities {
+.expert__circle:hover {
+    border-color:#3677fd;
+}
+
+
+.expert__skills {
     color: #3677fd;
-    font-family: "Lato-Bold";
+    font-weight: 700;
     font-size: calc(16px + 8 * (100vw / 2000));
     text-transform: uppercase;
+    margin-bottom: 35px;
 }
 
 .expert__text {
-    font-family: "Lato-Regular";
+    font-weight: 400;
     font-style: 16px;
+    line-height: 2.1875;
 }
 
 
