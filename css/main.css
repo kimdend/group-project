@@ -11,6 +11,9 @@ body {
 .container {
     padding: 100px calc(50vw - 570px);
 }
+.header__title {
+    color: red;
+}
 
 .about-us__title{
     font-size: 36px;
