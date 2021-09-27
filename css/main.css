@@ -12,6 +12,11 @@ body {
     padding: 100px calc(50vw - 570px);
 }
 
+.about-us__title{
+    font-size: 36px;
+    color: #3677fd;
+}
+
 .expert {
     background: #f1f8ff;
     height: 100vw;
