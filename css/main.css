@@ -10,3 +10,7 @@ body {
 .container {
     padding: 100px calc(50vw - 570px);
 }
+
+.footer {
+    background-color: aqua;
+}
