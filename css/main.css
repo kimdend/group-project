@@ -15,9 +15,21 @@ body {
     color: red;
 }
 
-.about-us__title{
-    font-size: 36px;
-    color: #3677fd;
+.main__about{
+    text-align: center;
+    margin: 5% 0;
+}
+
+.about__title{
+    padding-bottom: 40px;
+    font-size: 50px;
+    color: #5694FE;
+}
+
+.about__text{
+    width: 55%;
+    margin: 0 auto;
+    line-height: 30px;
 }
 
 .expert {
