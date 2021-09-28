@@ -11,22 +11,23 @@ body {
 .container {
     padding: 100px calc(50vw - 570px);
 }
+
 .header__title {
     color: red;
 }
 
-.main__about{
+.main__about {
     text-align: center;
     margin: 5% 0;
 }
 
-.about__title{
+.about__title {
     padding-bottom: 40px;
     font-size: 50px;
     color: #5694FE;
 }
 
-.about__text{
+.about__text {
     width: 55%;
     margin: 0 auto;
     line-height: 30px;
@@ -43,8 +44,8 @@ body {
     text-transform: capitalize;
     font-size: calc(24px + 26 * (100vw / 2000));
     background: -webkit-linear-gradient(45deg, #3695ff 40%, #356ffd 0%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin-bottom: 115px;
 }
 
@@ -78,7 +79,7 @@ body {
 }
 
 .expert__circle:hover {
-    border-color:#3677fd;
+    border-color: #3677fd;
 }
 
 
@@ -96,7 +97,73 @@ body {
     line-height: 2.1875;
 }
 
+/* Clients */
+
+.clients {
+    background-color: #f1f8ff;
+}
+
+.clients__content {
+    text-align: center;
+}
+
+.clients__title {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 35.12px;
+    color: #3695ff;
+    margin-bottom: 80px;
+}
+
+.clients__clients {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.clients__item {
+    display: block;
+    filter: grayscale(1);
+}
+
+
+/* Footer */
 
 .footer {
-    background-color: aqua;
+    background: rgb(70, 157, 255);
+    background: linear-gradient(135deg, rgba(70, 157, 255, 1) 35%, rgba(53, 104, 252, 1) 100%);
+}
+
+.footer__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.footer__text {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 65px;
+    color: #fff;
+}
+
+.footer__text span {
+    font-weight: 700;
+}
+
+.footer__btn {
+    width: 205px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: #fff;
+    color: #3695ff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    border: none;
+    cursor: pointer;
 }
