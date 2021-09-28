@@ -12,8 +12,53 @@ body {
     padding: 100px calc(50vw - 570px);
 }
 
+.header {
+    background: url(../img/header-bg.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 .header__title {
-    color: red;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    color: #fff;
+    margin: 40px 0;
+}
+
+.header__text {
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 2;
+    opacity: 0.8;
+}
+
+.header__btn {
+    width: 205px;
+    height: 55px;
+    border-radius: 28px;
+    background-color: #fff;
+    color: #3695ff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.025em;
+    border: none;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.header__scroll {
+    position: absolute;
+    bottom: 25px;
 }
 
 .main__about {
